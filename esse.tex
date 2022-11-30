@@ -1,0 +1,103 @@
+\documentclass[a4paper]{article}
+\usepackage[warn]{mathtext}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst}
+\usepackage{misccorr}
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=2cm,bmargin=2cm,lmargin=1.5cm,rmargin=1.5cm}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{floatflt}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{lscape}
+\usepackage{hvfloat}
+\usepackage{amsfonts}
+\usepackage{euscript}
+\usepackage{newunicodechar}
+\usepackage{booktabs}
+\usepackage{epigraph}
+\usepackage{csquotes} 
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,      
+    urlcolor=blue,
+    linkcolor= blue
+}
+
+\begin{document}
+\newcommand{\apple}{\char"F8FF}
+
+
+
+\begin{titlepage}
+    \vspace*{4cm}
+	\centering
+    {\scshape\LARGE Московский физико-технический институт\par}
+	\vspace{1cm}
+	{\scshape\Large Дипломная работа\par}
+	\vspace{1cm}
+    {\huge\bfseries Реализация взаимодействия мобильных агентов в mesh-сети,  обладающей  локальными свойствами. \par}
+	\vspace{2cm}
+	\vfill
+\begin{flushright}
+	{\large Выполнила студентка Б01-907}\par
+	\vspace{0.3cm}
+	{\LARGE Юлия Прохорова}
+\end{flushright}
+	
+	\vfill
+Долгопрудный, 2022
+% Bottom of the page
+\end{titlepage}
+
+\pagestyle{fancy} 
+\fancyhead[L]{Дипломная работа}
+\fancyhead[R]{Юля Прохорова, Б01-907}
+\fancyhead[C]{}
+\fancyfoot[C]{ \noindent\rule{\textwidth}{0.4pt} \thepage }
+
+\tableofcontents
+
+\newpage
+
+% \epigraph{}{}
+
+\section{Введение}
+
+\section{Общая теория}
+
+\subsection{Mesh-сети}
+
+% \begin{figure}[H]
+% 	\begin{center}
+% 	\begin{minipage}[h]{0.45\linewidth}
+% 	\includegraphics[width=1\linewidth]{pic1.pdf}
+% 	\caption{Сеть без выделенного доверенного центра.} 
+%     \label{p2}
+% 	\end{minipage}
+% 	\hfill 
+% 	\begin{minipage}[h]{0.43\linewidth}
+% 	\includegraphics[width=1\linewidth]{pic2.pdf}
+% 	\caption{Сеть с выделенным доверенным центром.}
+% 	\label{p3}
+% 	\end{minipage}
+% 	\end{center}
+% \end{figure}
+
+\section{Литература}
+
+\begin{thebibliography}{}
+    \bibitem{litlink1}  M. E. J. Newman -  \href{https://lib.mipt.ru/book/n/00013022000cdbe8096da0a688d3a130/Shnaier-B-Prikladnaya-kriptografiya-Protokoly-algoritmy-i-ishodnye-teksty-na-yazyke-S.pdf}{The Structure and Function of Complex Networks}
+    \bibitem{litlink2}  Geeks For Geeks -  \href{https://www.geeksforgeeks.org/advantage-and-disadvantage-of-mesh-topology/}{Advantage and Disadvantage of Mesh Topology}
+\end{thebibliography}
+\end{document}
+
